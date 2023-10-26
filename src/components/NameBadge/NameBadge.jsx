@@ -1,5 +1,5 @@
-const NameBadge = ({}) => {
-  return <h1>Olivia Lewis</h1>;
+const NameBadge = ({ displayedName }) => {
+  return <h1>{displayedName}</h1>;
 };
 
 export default NameBadge;
